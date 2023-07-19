@@ -171,7 +171,15 @@ nav {
 
 }
 .card-img{
-  width: 300px;
+  width: 300px; 
+  border-radius: 8px;
+}
+.card-img:hover{
+  border: 3px solid greenyellow;
+  border-radius: 8px;
+  cursor: pointer;
+ 
+
 }
 #card-text{
   width: 300px;
