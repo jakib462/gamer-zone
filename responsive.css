@@ -1,0 +1,23 @@
+/* Media Query for Mobile Devices */
+  
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    margin: 0px auto;
+  }
+  .navbar-logo{
+    padding-left: 0;
+    margin: 100px auto 60px auto;
+  }
+  .navbar-container{
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .content-1{
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+}

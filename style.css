@@ -7,7 +7,7 @@ body{
   font-family: 'Work Sans', sans-serif;
 }
     /* CSS for navbar styling */
-    .navbar {
+    nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -62,14 +62,7 @@ body{
 
 
 
-  /* Media Query for Mobile Devices */
-  @media screen and (max-width: 576px) {
-    .navbar {
-      flex-direction: column;
-      height: auto;
-      padding: 16px 24px;
-    }
-  }
+  
       
    
 
