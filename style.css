@@ -26,7 +26,7 @@ nav {
   font-size: 2.5rem;
   font-weight: 600;
   gap: 20px;
-  padding-left: 120px;
+  padding-left: 70px;
 }
 
 .navbar-title {
@@ -43,7 +43,7 @@ nav {
   justify-content: center;
   text-align: right;
   gap: 32px;
-  padding-right: 120px;
+  padding-right: 70px;
   color: #3C354F;
 }
 
@@ -81,20 +81,21 @@ nav {
 }
 
 .text-container {
-  width: calc((100%-150px)/2);
-  padding: 40px 20px 40px 120px;
+  width: auto;
+  padding: 70px;
   background: url(images/Group\ 14.png);
 }
 
 .img-container img {
   width: 600px;
   height: 500px;
-  margin-right: 120px;
+  margin-right: 70px;
 }
 
 .text-title {
   color: #0B0223;
   font-size: 3rem;
+  padding-bottom: 20px;
   font-weight: 600;
   text-transform: uppercase;
 
@@ -103,6 +104,7 @@ nav {
 .goat {
   font-size: 6rem;
   font-weight: 800;
+  padding-bottom: 20px;
   text-transform: uppercase;
   background: #8758F1;
   background-clip: text;
@@ -114,7 +116,8 @@ nav {
   color: #534C64;
   font-size: 1.25rem;
   font-weight: 500;
-  padding-bottom: 17px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 .btn-primary-1 {
@@ -123,6 +126,7 @@ nav {
   color: #FFF;
   font-size: 1.2rem;
   font-weight: 600;
+  margin-top: 20px;
   padding: 20px 40px;
   border: 0px;
 }
@@ -133,6 +137,7 @@ nav {
   font-size: 1.2rem;
   font-weight: 600;
   padding: 20px 40px;
+  margin-top: 20px;
   margin-left: 24px;
   border: 0px;
 }

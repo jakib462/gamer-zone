@@ -20,4 +20,43 @@
     flex-direction: column;
     margin-bottom: 60px;
   }
-}
+  /* header section */
+  .header-container {
+    flex-direction: column;
+    margin-top: 380px;
+    
+  }
+  .text-container {
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 30px;
+    margin-top: 80px;
+  }
+  
+  .text-title{
+    font-size: 2rem;
+    
+  }
+  .goat{
+    font-size: 4rem;
+  }
+  .description{
+    font-size: 1rem;
+  }
+  .btn-primary-1{
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .btn-primary-2{
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+    .img-container img {
+      max-width: 400px;
+      height: 400px;
+      margin: 30px auto;
+    }
+
+
+ }
