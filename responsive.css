@@ -42,7 +42,7 @@
     font-size: 4rem;
   }
   .description{
-    font-size: 1rem;
+    font-size: x-small;
   }
   .btn-primary-1{
     font-size: 1rem;
@@ -57,6 +57,19 @@
       height: 400px;
       margin: 30px auto;
     }
-
+    /* card styles */
+    .online-games-title, .Funny-Videos {
+      font-size: 1.5rem;
+    }
+    #description{
+      font-size: x-small;
+    }
+    .card-container{
+      grid-template-columns: repeat(1, auto);
+      justify-content: center;
+    }
+    .card-text{
+      font-size: x-small;
+    }
 
  }
