@@ -83,7 +83,7 @@ nav {
 .text-container {
   width: auto;
   padding: 70px;
-  background: url(images/Group\ 14.png);
+  background-image: url(images/Group\ 14.png);
 }
 
 .img-container img {
@@ -130,6 +130,7 @@ nav {
   padding: 20px 40px;
   border: 0px;
 }
+
 .btn-primary-2 {
   border-radius: 48px;
   background: #4EC5F7;
@@ -140,4 +141,41 @@ nav {
   margin-top: 20px;
   margin-left: 24px;
   border: 0px;
+}
+
+/* online-games section */
+/* .online-games-container {} */
+
+.online-games-title {
+  color: #0B0223;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+.Funny-Videos {
+  color: #8758F1;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#description{
+  text-align: center;
+}
+/* card styles */
+.card-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 20px;
+
+}
+.card-img{
+  width: 300px;
+}
+#card-text{
+  width: 300px;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 20px;
 }
