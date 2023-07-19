@@ -4,29 +4,75 @@
     padding: 0;
 }
 body{
-
+  font-family: 'Work Sans', sans-serif;
 }
     /* CSS for navbar styling */
     .navbar {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       background: #FFF;
       box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-      height: 130px;
+      height: 100px;
+      width: 100%;
     }
     .navbar-logo{
       display: flex;
       align-items: center;
       text-align: left;
+      font-size: 2.5rem;
+      font-weight: 600;
       gap: 20px;
+      padding-left: 120px;
+    }
+    .navbar-title{
+      color: #0B0223;
+    }
+    .gamer{
+      color: #FF42A5;
     }
     .navbar-container{
       display: flex;
       align-items: center;
+      justify-content: center;
       text-align: right;
       gap: 32px;
-      list-style: none;
-     
+      padding-right: 120px;
+      color: #3C354F;
     }
+    .navbar-container ul li a{
+      text-decoration: none;
+      color: #3C354F;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    
+    .content-1, .content-2{
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 32px;
+    }
+    .content-2{
+      height: 56px;
+      border-radius: 8px;
+      background: rgba(11, 2, 35, 0.10);
+      padding: 0px 24px;
+    }
+
+
+
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 576px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 16px 24px;
+    }
+  }
+      
+   
+
+    
     
     
